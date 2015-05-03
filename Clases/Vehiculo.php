@@ -6,6 +6,7 @@ Class Vehiculo
 	private $_marca;
 	private $_modelo;
 	private $_año;
+	private $_empresa;
 	
 	Public function Vehiculo()
 	{
