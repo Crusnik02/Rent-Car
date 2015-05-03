@@ -2,26 +2,25 @@
 
 Class Usuario
 {
-	private $_nombre;
-	private $_apellido;
-	private $_edad;
-	private $_dui;
-	private $_nit;
-	private $_direccion;
-	private $_correo;
-	private $_fechaNac;
-	private $_id;
-	private $_nickname;
+	protected $_nombre1;
+	protected $_nombre2;
+	protected $_apellido1;
+	protected $_apellido2;
+	protected $_correo;
+	protected $_dui;
+	protected $_nit;
+	protected $_fechaNac;
+	protected $_nickName;
 	public function Usuario()
 	{
 		
 	}
 	
-	public function getNombre()
+	public function getNombre1()
 	{
 		return $this->_nombre;
 	}
-	public function setNombre($_nombre)
+	public function setNombre1($_nombre1)
 	{
 		$this->_nombre=$_nombre;
 	}
